@@ -62,23 +62,22 @@ Payload:
 '+or+'a'='a  
 
 When entering +'or'a'='a, a 302 redirect response is returned.
-<img width="1338" height="660" alt="image" src="https://github.com/user-attachments/assets/bb61acb4-d91e-4b1c-8e21-ea38eab5905f" />
+
+<img width="416" height="222" alt="image" src="https://github.com/user-attachments/assets/b30ad663-7717-4347-a735-da4ea50cb959" />
+
 
 '+or+'a'='b
 
 When entering 'or'a'='b, a 200 status code is returned, and there is a difference in content length.
-<img width="1344" height="642" alt="image" src="https://github.com/user-attachments/assets/26152cf2-604e-4e0a-948d-968b06223146" />
+
+<img width="416" height="206" alt="image" src="https://github.com/user-attachments/assets/03c7fb54-f22f-4959-ba47-21fe0cde0e3d" />
+
 
 
 payload： '+or+current_user+like+'a% 
 
 Through the aforementioned differential response, attempt to send to the Intruder module of BurpSuite to obtain the database username..
-<img width="1080" height="756" alt="image" src="https://github.com/user-attachments/assets/c7ed2094-1558-4cb1-a815-da7e61ec2e39" />
+<img width="416" height="364" alt="image" src="https://github.com/user-attachments/assets/a8f6fbab-b633-41fb-b2da-5a4a6690328e" />
 
-Final Database User：dbo
-<img width="1341" height="696" alt="image" src="https://github.com/user-attachments/assets/0e52ec9c-6771-441c-a429-38c33be4fbee" />
-
-Verify：dbs   200 status code is returned, and there is a difference in content length.
-<img width="1326" height="636" alt="image" src="https://github.com/user-attachments/assets/b8bc5b27-d3da-49cc-bdf1-63a7e0e4eced" />
 
 
